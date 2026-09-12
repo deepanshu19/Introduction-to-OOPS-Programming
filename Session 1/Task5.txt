@@ -1,0 +1,21 @@
+5.Compare your procedural C version and OOP TaskList version: List 3 problems you faced in the C version that were solved by using classes and methods in the OOP version.
+
+
+### 3 problems in the C version that were solved by OOP
+
+1. **Data and functions were separate**
+
+   * In C, the task array and functions like `markTaskDone()` were separate.
+   * In C++, the `Task` class keeps the task data and related methods together.
+
+2. **Managing multiple tasks was harder**
+
+   * In C, we needed separate arrays such as `tasks[]` and `status[]`.
+   * In C++, `TaskList` directly stores multiple `Task` objects, making them easier to manage.
+
+3. **Code was less organized and reusable**
+
+   * In C, adding new task operations could require more separate functions and arrays.
+   * In C++, methods such as `addTask()`, `markTaskDone()`, and `showTasks()` keep the functionality organized inside the `TaskList` class.
+
+**In short:** OOP makes the program more **organized, reusable, and easier to maintain** by combining data and related functions into classes.
